@@ -8,3 +8,6 @@ def conversion(d, m, s):
     dd = degre + minute + seconde
     return conversion
 
+#longitude des donnee qu'il faut prendre
+longitude = conversion(2, 34, 95)
+print(longitude)
