@@ -6,8 +6,10 @@ def conversion(d, m, s):
     minute = m/60
     seconde = s/3600
     dd = degre + minute + seconde
-    return conversion
+    return dd
 
 #longitude des donnee qu'il faut prendre
 longitude = conversion(2, 34, 95)
-print(longitude)
+#latitude des donnee qu'il faut prendre
+latitude = conversion(4, 59, 59)
+print(longitude and latitude )
